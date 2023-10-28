@@ -18,13 +18,6 @@ export default function Home() {
 
           </p>
         </div>
-        <div>
-          <h2 className='leading-[3rem] text-4xl font-bold text-blue-900 py-6'>Interested?</h2>
-          <button 
-            className='text-3xl font-semibold text-red-900 px-6 py-3 rounded-lg shadow-md' 
-            onClick={() => window.open("https://docs.google.com/forms/d/e/1FAIpQLSfkjhjHdKTgpWMvdlRVuObkZFNAdKEz6kSjpcZ5mPgMCLlVvA/viewform?usp=sf_link ")}
-          >Click Here!</button>
-        </div>
         <h2 className='leading-[3rem] text-4xl font-bold text-blue-900'>Officers:</h2>
         <div>
           <div className='flex gap-3 flex-row'>
@@ -63,9 +56,12 @@ export default function Home() {
             ))}
           </div>
         </div>
-        <div className='space-y-[0.75rem]'>
-          <h2 className='text-4xl font-bold text-blue-900 leading-[3rem]'>Get Involved</h2>
-          <h3 className='text-2xl font-[500] leading-[3rem]'>how to get involved</h3>
+        <div>
+          <h2 className='leading-[3rem] text-4xl font-bold text-blue-900 py-6'>Interested?</h2>
+          <button 
+            className='text-3xl font-semibold text-red-900 px-6 py-3 rounded-lg shadow-md' 
+            onClick={() => window.open("https://docs.google.com/forms/d/e/1FAIpQLSfkjhjHdKTgpWMvdlRVuObkZFNAdKEz6kSjpcZ5mPgMCLlVvA/viewform?usp=sf_link ")}
+          >Click Here!</button>
         </div>
       </div>
     </main>
