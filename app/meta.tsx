@@ -21,7 +21,7 @@ export const officers = [
         name: 'Vikrant Vadathavoor ',
         position: 'Example Position',
         blurb: 'Example',
-        image: '/images/placeholder.jpg',
+        image: '/officers/vikrant_vadat.jpg',
         socials: [
             { name: 'Email', link: 'mailto:vvadathavoor052@student.fuhsd.org'}
         ]

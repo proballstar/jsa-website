@@ -20,7 +20,7 @@ export default function Home() {
         <div>
           <div className='rounded-md w-full flex gap-[1rem] flex-row'>
             {officers.map((officer) => (
-              <div className=' w-[20vw] shadow-md rounded-[1.5rem] border-2'>
+              <div className='min-w-[10vw] flex-wrap w-[20vw] shadow-md rounded-[1.5rem] border-2'>
                 <div className='h-auto'>
                   <img 
                     src={officer.image} 
