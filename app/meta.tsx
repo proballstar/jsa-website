@@ -18,21 +18,21 @@ export const officers = [
         ]
     },
     {
-        name: 'Vikrant Vadathavoor ',
-        position: 'Example Position',
-        blurb: 'Example',
-        image: '/officers/vikrant_vadat.jpg',
-        socials: [
-            { name: 'Email', link: 'mailto:vvadathavoor052@student.fuhsd.org'}
-        ]
-    },
-    {
         name: 'Chelsea Guo',
         position: 'Vice President/PR Officer',
         blurb: 'Chelsea is a sophomore and the vice president/PR officer of Lynbrook JSA this year. She is interested in politics and law as a member of the mock trial team as well. In her free time, she likes to write short stories, curl up with a good book, and take long walks. ',
         image: '/officers/chelsea_guo.png',
         socials: [
             { name: 'Email', link: 'mailto:chgchz2020@gmail.com'}
+        ]
+    },
+    {
+        name: 'Vikrant Vadathavoor ',
+        position: 'Treasurer',
+        blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices neque ornare aenean euismod elementum nisi quis eleifend.',
+        image: '/officers/vikrant_vadathavoor.jpg',
+        socials: [
+            { name: 'Email', link: 'mailto:vvadathavoor052@student.fuhsd.org'}
         ]
     },
 ]
